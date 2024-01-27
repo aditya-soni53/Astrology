@@ -18,11 +18,12 @@ import mobileBannerImg from '../../assest/astrosumi homebanner mobile 2.png'
 
 
 const Hero = () => {
+  //added tow image for pc and mobile
   return (
     <main className="hero-section-container">
       <section className="main-section-details">
           <img className="banner-pc" src={bannerImg} alt="" />
-          <img className="banner-mobile" src={mobileBannerImg} alt="" /> 
+          <img className="banner-mobile" src={mobileBannerImg} alt="" />
       </section>
       <section className="constellation-section">
         <div className="constellation-section-container">
