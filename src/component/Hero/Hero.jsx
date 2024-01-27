@@ -21,7 +21,8 @@ const Hero = () => {
   return (
     <main className="hero-section-container">
       <section className="main-section-details">
-        
+          <img className="banner-pc" src={bannerImg} alt="" />
+          <img className="banner-mobile" src={mobileBannerImg} alt="" />
       </section>
       <section className="constellation-section">
         <div className="constellation-section-container">
