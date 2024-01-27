@@ -21,19 +21,7 @@ const Hero = () => {
   return (
     <main className="hero-section-container">
       <section className="main-section-details">
-        <div className="main-section_heading">
-          <h3>
-            Connect With Experienced Astrologers
-          </h3>
-        </div>
-        <div className="main-section_details-box">
-          <p>
-            Uncover the secrets of your destiny with accurate and insightful
-            horoscope readings. With a user-friendly interface and a community
-            of skilled astrologers, Stellar Insights is your go-to site for
-            navigating life's celestial mysteries.
-          </p>
-        </div>
+        
       </section>
       <section className="constellation-section">
         <div className="constellation-section-container">
