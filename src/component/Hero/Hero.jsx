@@ -13,6 +13,9 @@ import taurus from "../../assest/taurus.png";
 import virgo from "../../assest/virgo 1.png";
 import cancer from "../../assest/cancer.png";
 import gemini from "../../assest/gemini.png";
+import bannerImg from '../../assest/hompage banner pc.png'
+import mobileBannerImg from '../../assest/astrosumi homebanner mobile 2.png'
+
 
 const Hero = () => {
   return (
