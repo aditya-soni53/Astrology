@@ -5,35 +5,6 @@
   padding-top: 2.8rem;
 }
 
-.main-section-details {
-  color: rgba(255, 255, 255, 1);
-  border: 1px solid rgba(255, 255, 255, 1);
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-  margin: 0 auto;
-  width: 90%;
-  height: 19rem;
-  padding: 1.3rem 3rem;
-  text-align: center;
-}
-
-.main-section_heading h3 {
-  margin-top: 2rem;
-  font-size: 2.788rem;
-  font-weight: 700;
-  letter-spacing: 0;
-}
-
-.main-section_details-box {
-  margin-top: 2.5rem;
-  font-size: 1.4rem;
-  font-weight: 400;
-  text-align: justify;
-  line-height: 1.2;
-  max-width: 95%;
-  margin-inline: auto;
-}
-
 .constellation-section {
   text-align: center;
   padding-top: 5.5rem;
@@ -48,17 +19,6 @@
 }
 
 @media (min-width: 38.1rem) and (max-width: 70rem) {
-  .main-section-details {
-    padding: 1rem 0;
-  }
-  .main-section_heading h3 {
-    margin-top: 1rem;
-    font-size: 1.56rem;
-  }
-  .main-section_details-box {
-    max-width: 40rem;
-    padding-inline: 2rem;
-  }
   .constellation-section-container {
     justify-content: center;
     gap: 3rem;
@@ -66,26 +26,7 @@
 }
 
 @media (max-width: 38rem) {
-  .main-section-details {
-    width: 90%;
-    height: 21rem;
-    padding: 0;
-  }
-
-  .main-section_heading h3 {
-    font-size: 1.5rem;
-    margin-top: 0;
-    padding-top: 2rem;
-  }
-
-  .main-section_details-box {
-    margin: 0 auto;
-    padding-top: 1.5rem;
-    padding-inline: 1rem;
-    max-width: unset;
-    font-size: 1.2rem;
-  }
-
+  
   .constellation-section {
     padding-top: 3rem;
   }
@@ -97,10 +38,6 @@
 }
 
 @media (min-width: 1500px){
-  .main-section-details {
-    max-width: 85rem;
-    margin-top: 6rem;
-  }
   .constellation-section-container {
     width: 85rem;
     gap: 1rem;
