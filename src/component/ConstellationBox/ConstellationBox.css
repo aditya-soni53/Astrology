@@ -1,0 +1,18 @@
+.constellation-box-section {
+  height: 9rem;
+  width: 6rem;
+  border: 1px solid #cbcbcb;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: grid;
+  color: rgba(255, 255, 255, 1);
+}
+
+.constellation-box-image{
+  padding-top: 1.4rem;
+  height: 7rem;
+}
+
+.constellation-box-image img {
+  object-fit: cover;
+}

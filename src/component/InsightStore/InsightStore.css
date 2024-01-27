@@ -1,0 +1,152 @@
+.insight-store-main-section {
+  background: url("../../assest/astrowebsiteimg2.png");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.insight-store-heading-container {
+  color: #fff;
+  width: 100%;
+}
+
+.insight-store-heading_box {
+  border: 1px solid #ccc;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: grid;
+  justify-content: center;
+  height: 8rem;
+  border-left: none;
+  border-right: none;
+}
+
+.insight-store-heading_box_details {
+  display: grid;
+  justify-items: center;
+  padding: 1rem;
+}
+
+.insight-store-heading_box_details h1 {
+  font-size: 2.4rem;
+  letter-spacing: 0.2rem;
+  font-weight: 800;
+}
+
+.insight-store-heading_box_details p {
+  font-size: 1.5rem;
+}
+
+.insight-store-card-section {
+  background: url("../../assest/astrowebsiteimg2.png");
+  background-size: cover;
+}
+.insight-store-card-section-container {
+  margin-inline: auto;
+  max-width: 70rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  row-gap: 3rem;
+  padding: 2rem 5rem;
+}
+
+.insight-store-card-box {
+  height: 16.5rem;
+  width: 13.5rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 2px 3px 4.8px #00000040;
+}
+
+.insight-store-card-box img {
+  border-radius: 10px 10px 0 0;
+  height: 12rem;
+  width: 100%;
+}
+
+.insight-store-card-box_details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.insight-store-card-box_name {
+  padding-block: 0.4rem;
+  width: 9.5rem;
+  font-size: 0.8rem;
+}
+
+.insight-store-card-box_price {
+  padding-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #fe0000;
+}
+
+.whatsapp-send-btn {
+  padding-inline: 0.5rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  background-color: #bfb4b4;
+  padding: 0.5rem;
+  display: block;
+  text-align: center;
+  border-radius: 0 0px 10px 10px;
+}
+
+@media (min-width: 38.1rem) and (max-width: 60rem) {
+  .insight-store-card-section-container {
+    gap: 1rem;
+    justify-content: space-evenly;
+    padding: 1rem 3rem;
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 38rem) {
+  .insight-store-heading_box_details {
+    justify-items: normal;
+  }
+  .insight-store-heading_box_details h1 {
+    font-size: 2rem;
+  }
+
+  .insight-store-card-section {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+  }
+
+  .insight-store-card-section-container {
+    gap: 1rem;
+    justify-content: space-evenly;
+    row-gap: 2rem;
+    padding: 0;
+    padding-block: 1rem;
+    margin-inline: auto;
+  }
+  .insight-store-card-box {
+    width: 10.5rem;
+  }
+
+  .insight-store-card-box_name {
+    width: 7.5rem;
+    padding-inline: 0.4rem;
+    font-size: 0.7rem;
+  }
+
+  .insight-store-card-box_price {
+    padding-right: 0.5rem;
+    font-size: 0.7rem;
+  }
+  .whatsapp-send-btn {
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .insight-store-card-section-container {
+    width: 82rem;
+    margin-inline: auto;
+  }
+}

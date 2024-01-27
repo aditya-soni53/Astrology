@@ -1,0 +1,27 @@
+.mental-health-section {
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+}
+
+.mental-health-section img {
+  width: 100%;
+  height: inherit;
+}
+
+@media (max-width: 38rem) {
+  .mental-health-section img {
+    object-fit: fill;
+    width: 100vw;
+  }
+}
+
+@media (min-width: 1500px) {
+  .mental-health-section {
+    height: 40rem;
+  }
+
+  .mental-health-section img {
+    max-width: 85rem;
+  }
+}

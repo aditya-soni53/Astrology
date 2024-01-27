@@ -1,0 +1,17 @@
+.share-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+    position: fixed;
+    left: 100vw;
+    top: 95vh;
+    transform: translate(-4vw, -55vh);
+    z-index: 1000;
+}
+
+@media (max-width: 38rem) {
+    .share-buttons {
+        transform: translate(-8vw, -55vh);
+    }
+}
