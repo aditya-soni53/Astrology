@@ -15,6 +15,7 @@ import cancer from "../../assest/cancer.png";
 import gemini from "../../assest/gemini.png";
 import bannerImg from '../../assest/hompage banner pc.png'
 import mobileBannerImg from '../../assest/astrosumi homebanner mobile 2.png'
+import OurAstrologer from "../OurAstrologer/OurAstrologer";
 
 
 const Hero = () => {
@@ -25,6 +26,7 @@ const Hero = () => {
           <img className="banner-pc" src={bannerImg} alt="" />
           <img className="banner-mobile" src={mobileBannerImg} alt="" />
       </section>
+        <OurAstrologer/>
       <section className="constellation-section">
         <div className="constellation-section-container">
           <ConstellationBox text="Aries" img={aries} />

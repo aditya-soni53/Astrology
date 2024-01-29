@@ -10,42 +10,42 @@ import img8 from '../../assest/8.png'
 export const InsightStoreData = [
     {
         InsightImg : img1,
-        InsightName:'Green Jade Tulsi Bracelet with pearl (Coming Soon)',
+        InsightName:'Green Jade Tulsi Bracelet with pearl ',
         InsightPrice:'₹ 1000'
     },
     {
         InsightImg : img2,
-        InsightName:'Green Jade Tulsi Bracelet with pearl (Coming Soon)',
+        InsightName:'Green Jade Tulsi Bracelet with pearl',
         InsightPrice:'₹ 1000'
     },
     {
         InsightImg : img3,
-        InsightName:'Green Jade Tulsi Bracelet with pearl (Coming Soon)',
+        InsightName:'Green Jade Tulsi Bracelet with pearl',
         InsightPrice:'₹ 1000'
     },
     {
         InsightImg : img4,
-        InsightName:'Green Jade Tulsi Bracelet with pearl (Coming Soon)',
+        InsightName:'Green Jade Tulsi Bracelet with pearl',
         InsightPrice:'₹ 1000'
     },
     {
         InsightImg : img5,
-        InsightName:'Green Jade Tulsi Bracelet with pearl (Coming Soon)',
+        InsightName:'Green Jade Tulsi Bracelet with pearl',
         InsightPrice:'₹ 1000'
     },
     {
         InsightImg : img6,
-        InsightName:'Green Jade Tulsi Bracelet with pearl (Coming Soon)',
+        InsightName:'Green Jade Tulsi Bracelet with pearl',
         InsightPrice:'₹ 1000'
     },
     {
         InsightImg : img7,
-        InsightName:'Green Jade Tulsi Bracelet with pearl (Coming Soon)',
+        InsightName:'Green Jade Tulsi Bracelet with pearl',
         InsightPrice:'₹ 1000'
     },
     {
         InsightImg : img8,
-        InsightName:'Green Jade Tulsi Bracelet with pearl (Coming Soon)',
+        InsightName:'Green Jade Tulsi Bracelet with pearl',
         InsightPrice:'₹ 1000'
     }
 ]

@@ -149,6 +149,11 @@
   justify-content: space-between;
 }
 
+.details-card-leftside_bottom h5{
+  font-weight: 600;
+}
+
+
 .btngreen,
 .btngray {
   color: #ffffff;
@@ -297,6 +302,7 @@
 
   .details-card-leftside_name_verify {
     font-size: 0.8rem;
+    gap: .5rem;
   }
 
   .details-card-leftside_name_verify img {

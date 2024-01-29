@@ -1,6 +1,5 @@
 import React from "react";
 import "./AboutUs.css";
-import OurAstrologer from "../OurAstrologer/OurAstrologer";
 
 const AboutUs = () => {
   return (
@@ -41,7 +40,6 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
-      <OurAstrologer />
     </div>
   );
 };

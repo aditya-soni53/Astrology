@@ -130,7 +130,7 @@ const AstrologersChatTalk = (props) => {
           </ul>
         </div>
         <div className="user-info-section">
-          <p>Available balance: ₹225</p>
+          <p>Available balance: ₹0</p>
           <button className="recharge-btn">Recharge</button>
         </div>
       </main>

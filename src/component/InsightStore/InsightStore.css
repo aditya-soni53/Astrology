@@ -75,6 +75,9 @@
   font-size: 0.8rem;
 }
 
+.insight-store-card-box_name .bold {
+  font-weight: 800;
+}
 .insight-store-card-box_price {
   padding-top: 0.5rem;
   font-size: 0.8rem;

@@ -11,7 +11,7 @@ export const AstrologersChatTalkData = [
     field: "Vedic, Palmistry, Prahsana, Tarrot",
     language: "English, Hindi",
     exp: "Exp: 7 years",
-    seessionTimeFess: "₹33 / min",
+    seessionTimeFess: "Free",
   },
   {
     astroProfileImg: AstroProfileImg,
@@ -21,7 +21,7 @@ export const AstrologersChatTalkData = [
     field: "Vedic, Palmistry,Tarrot",
     language: "English, Hindi",
     exp: "Exp: 5 years",
-    seessionTimeFess: "₹33 / min",
+    seessionTimeFess: "Free",
   },
   {
     astroProfileImg: AstroProfileImg,
@@ -31,7 +31,7 @@ export const AstrologersChatTalkData = [
     field: "Vedic, Palmistry",
     language: "English, Hindi",
     exp: "Exp: 3 years",
-    seessionTimeFess: "₹33 / min",
+    seessionTimeFess: "Free",
   },
   {
     name: "Coming Soon",

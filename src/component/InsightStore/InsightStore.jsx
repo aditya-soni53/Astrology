@@ -27,7 +27,7 @@ const InsightStore = ({ title, desc }) => {
                 <img src={value.InsightImg} alt="" />
                 <div className="insight-store-card-box_details">
                   <div className="insight-store-card-box_name">
-                    <span>{value.InsightName}</span>
+                    <span>{value.InsightName} <span className="bold">(Coming Soon)</span></span>
                   </div>
                   <div className="insight-store-card-box_price">
                     <span>{value.InsightPrice}</span>
