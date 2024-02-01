@@ -58,7 +58,7 @@ const AstrologersChatTalk = (props) => {
 
   const sendMessage = () => {
     const phoneNumber = "917229999992"; // Replace with your phone number
-    const message = "Hello there, how are you?";
+    const message = "Hello need free consultation";
     const encodedMessage = encodeURIComponent(message);
     const whatsappLink = `https://wa.me/${phoneNumber}/?text=${encodedMessage}`;
 

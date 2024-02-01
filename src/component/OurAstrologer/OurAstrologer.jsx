@@ -6,7 +6,7 @@ const OurAstrologer = () => {
 
   const sendMessage = () => {
     const phoneNumber = '917229999992'; 
-    const message = 'Hello there,';
+    const message = 'Hello need free consultation';
     const encodedMessage = encodeURIComponent(message);
     const whatsappLink = `https://wa.me/${phoneNumber}/?text=${encodedMessage}`;
 
@@ -47,7 +47,8 @@ const OurAstrologer = () => {
                       <img src={value.rating} alt="" />
                     </div>
                     <div className="astrologer-exp">
-                      <span>{value.exp}</span>
+                      <span style={{paddingLeft:'.4rem'}}>{value.exp}</span>
+                      <span style={{ fontWeight: 800 }}>{value.price}</span>
                       {value.exp && (
                         <button onClick={sendMessage}>Talk</button>
                       )}

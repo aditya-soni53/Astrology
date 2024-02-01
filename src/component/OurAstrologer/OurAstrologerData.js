@@ -8,6 +8,7 @@ export const AstrologerData = [
     verifyIcon: verifyIcon,
     rating: star,
     exp: "7year",
+    price:"Free"
   },
   {
     profileImg: AstroProfileImg,
@@ -15,6 +16,8 @@ export const AstrologerData = [
     verifyIcon: verifyIcon,
     rating: star,
     exp: "5year",
+    price:"Free"
+
   },
   {
     profileImg: AstroProfileImg,
@@ -22,6 +25,8 @@ export const AstrologerData = [
     verifyIcon: verifyIcon,
     rating: star,
     exp: "3year",
+    price:"Free"
+
   },
   {
     profileImg: AstroProfileImg,

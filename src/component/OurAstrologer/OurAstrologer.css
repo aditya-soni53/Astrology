@@ -115,6 +115,7 @@
   display: flex;
   font-size: 0.8rem;
   justify-content: space-between;
+  align-items: center;
   padding: 0.8rem;
 }
 .astrologer-exp button{
@@ -169,6 +170,7 @@
   }
   .our-storloger-container_top-section h5 {
     font-size: 1.1rem;
+    padding-inline: .4rem;
   }
 
   .our-storloger-container_top-section {
@@ -206,6 +208,13 @@
     margin-top: 0.4rem;
     font-size: 0.9rem;
   }
+
+  .astrologer-exp {
+    padding: 1rem .2rem;
+    gap: .4rem;
+    justify-content: normal;
+  }
+
 }
 
 @media (min-width: 1500px){

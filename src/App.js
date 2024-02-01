@@ -5,6 +5,7 @@ import ChatWithAstrologerPage from "./router/ChatWithAstrologerPage";
 import InsightStorePage from "./router/InsightStorePage";
 import MentalHealthPage from "./router/MentalHealthPage";
 import { useEffect } from "react";
+import ReactGA from "react-ga";
 
 function App() {
 
@@ -16,6 +17,9 @@ function App() {
       navigate("/");
     };
 
+    // Initialize Google Analytics
+    ReactGA.initialize("G-HW9WG1VW1P");
+
     // Add the event listener for beforeunload
     window.addEventListener("beforeunload", handleBeforeUnload);
 
@@ -24,6 +28,11 @@ function App() {
       window.removeEventListener("beforeunload", handleBeforeUnload);
     };
   }, [navigate]);
+
+  useEffect(() => {
+    // Track page view on component mount
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
   return (
     <>
       <Routes>
