@@ -10,7 +10,6 @@ import HealthIcon from "../../assest/heart-beat@2x.png";
 import WealthIcon from "../../assest/group-7@2x.png";
 import VectorIcon from "../../assest/Vector.png";
 import { AstrologersChatTalkData } from "./AstrologersChatTalkData";
-import NavBar from "../NavBar/Navbar";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../firebase";
 
@@ -73,7 +72,6 @@ const AstrologersChatTalk = (props) => {
   };
   return (
     <>
-      <NavBar />
       <main className="astrologer-chat-talk-section">
         <div className="astrologer-chat-talk-heading-container">
           <div className="astrologer-chat-talk-heading-box">

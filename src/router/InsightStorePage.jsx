@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import InsightStore from '../component/InsightStore/InsightStore'
+import Navbar from '../component/NavBar/Navbar'
 import Footer from '../component/Footer/Footer'
 import ShareIcons from '../component/ShareIcons/ShareIcons'
 import { useLocation } from 'react-router-dom'
@@ -20,6 +21,7 @@ const InsightStorePage = ({pageTitle,description,canonicalUrl}) => {
   return (
     <>
         <ShareIcons/>
+        <Navbar/>
         <InsightStore title ='Astrosumi Store' desc='Shop Best Online Astrology Products And Services'/>
         <Footer/>
     </>

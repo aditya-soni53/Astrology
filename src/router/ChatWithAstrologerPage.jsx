@@ -3,6 +3,7 @@ import AstrologersChatTalk from '../component/AstrologersChatTalk/AstrologersCha
 import Footer from '../component/Footer/Footer'
 import ShareIcons from '../component/ShareIcons/ShareIcons'
 import { useLocation } from 'react-router-dom'
+import Navbar from '../component/NavBar/Navbar'
 
 const ChatWithAstrologerPage = (props) => {
 
@@ -22,6 +23,7 @@ const ChatWithAstrologerPage = (props) => {
   return (
     <div>
       <ShareIcons/>
+      <Navbar/>
       <AstrologersChatTalk props= {props}/>
       <Footer/>
     </div>

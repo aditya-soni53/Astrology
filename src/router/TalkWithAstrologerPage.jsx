@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import AstrologersChatTalk from '../component/AstrologersChatTalk/AstrologersChatTalk'
 import Footer from "../component/Footer/Footer";
 import ShareIcons from '../component/ShareIcons/ShareIcons';
+import Navbar from "../component/NavBar/Navbar";
 import { useLocation } from 'react-router-dom';
 
 const TalkWithAstrologerPage = (props) => {
@@ -21,6 +22,7 @@ const TalkWithAstrologerPage = (props) => {
   return (
     <>
       <ShareIcons/>
+      <Navbar/>
       <AstrologersChatTalk props={props}/>
       <Footer/>
     </>

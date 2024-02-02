@@ -1,13 +1,11 @@
 import React from "react";
 import "./InsightStore.css";
 import { InsightStoreData } from "./InsightStoreData";
-import NavBar from "../NavBar/Navbar";
 import { Link } from "react-router-dom";
 
 const InsightStore = ({ title, desc }) => {
   return (
     <>
-      <NavBar />
       <main className="insight-store-main-section">
         <div className="insight-store-heading-container">
           <div className="insight-store-heading_box">
