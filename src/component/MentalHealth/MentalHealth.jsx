@@ -6,7 +6,7 @@ import mentalHealth from '../../assest/banner coming soon transparent.png'
 const MentalHealth = () => {
   return (
     <div className='mental-health-section'>
-      <img src={mentalHealth} alt="" />
+      <img loading="lazy" src={mentalHealth} alt="" />
     </div>
   )
 }

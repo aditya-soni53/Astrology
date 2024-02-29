@@ -80,6 +80,7 @@ function App() {
           }
         />
         <Route path="/mental-health" element={<MentalHealthPage />} />
+        <Route path="/*" element={<Home />} />
       </Routes>
     </>
   );

@@ -22,7 +22,7 @@ const InsightStore = ({ title, desc }) => {
           {InsightStoreData.map((value, index) => {
             return (
               <div key={index} className="insight-store-card-box">
-                <img src={value.InsightImg} alt="" />
+                <img loading="lazy" src={value.InsightImg} alt="" />
                 <div className="insight-store-card-box_details">
                   <div className="insight-store-card-box_name">
                     <span>{value.InsightName} <span className="bold">(Coming Soon)</span></span>

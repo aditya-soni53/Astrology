@@ -23,24 +23,24 @@ const Hero = () => {
   return (
     <main className="hero-section-container">
       <section className="main-section-details">
-          <img className="banner-pc" src={bannerImg} alt="" />
-          <img className="banner-mobile" src={mobileBannerImg} alt="" />
+          <img className="banner-pc" src={bannerImg} loading="lazy" alt="" />
+          <img className="banner-mobile" src={mobileBannerImg} loading="lazy" alt="" />
       </section>
         <OurAstrologer/>
       <section className="constellation-section">
         <div className="constellation-section-container">
-          <ConstellationBox text="Aries" img={aries} />
-          <ConstellationBox text="Taurus" img={taurus} />
-          <ConstellationBox text="Gemini" img={gemini} />
-          <ConstellationBox text="Cancer" img={cancer} />
-          <ConstellationBox text="Leo" img={leo} />
-          <ConstellationBox text="Virgo" img={virgo} />
-          <ConstellationBox text="Libra" img={libra} />
-          <ConstellationBox text="Scorpio" img={scorpio} />
-          <ConstellationBox text="Sagittarius" img={saggi} />
-          <ConstellationBox text="Capricorn" img={capricon} />
-          <ConstellationBox text="Aquarius" img={aquari} />
-          <ConstellationBox text="Pisces" img={pices} />
+          <ConstellationBox text="Aries" loading="lazy" img={aries} />
+          <ConstellationBox text="Taurus" loading="lazy" img={taurus} />
+          <ConstellationBox text="Gemini" loading="lazy" img={gemini} />
+          <ConstellationBox text="Cancer" loading="lazy"img={cancer} />
+          <ConstellationBox text="Leo" loading="lazy" img={leo} />
+          <ConstellationBox text="Virgo" loading="lazy" img={virgo} />
+          <ConstellationBox text="Libra" loading="lazy"img={libra} />
+          <ConstellationBox text="Scorpio" loading="lazy" img={scorpio} />
+          <ConstellationBox text="Sagittarius" loading="lazy" img={saggi} />
+          <ConstellationBox text="Capricorn" loading="lazy" img={capricon} />
+          <ConstellationBox text="Aquarius" loading="lazy" img={aquari} />
+          <ConstellationBox text="Pisces" loading="lazy" img={pices} />
         </div>
       </section>
     </main>

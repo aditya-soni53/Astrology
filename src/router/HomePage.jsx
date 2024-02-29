@@ -22,6 +22,7 @@ const Home = () => {
       Navigate("/mental-health");
     }
     setLastWord(lastSegment);
+    console.log(lastSegment)
   }, []);
 
   return (

@@ -1,4 +1,4 @@
-import AstroProfileImg from "../../assest/Man.png";
+import AstroProfileImg from "../../assest/Man.jpg";
 import verifyIcon from "../../assest/check-circle.png";
 import star from "../../assest/star.png";
 
